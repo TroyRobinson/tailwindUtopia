@@ -22,6 +22,13 @@ export var App = () => {
           height: 453,
         }}
       ></img>
+      <button className="mt-8 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors">
+        Click Me
+      </button>
+      {/* Simple Tailwind button */}
+      <button className="mt-4 px-6 py-2 bg-green-600 text-white rounded shadow hover:bg-green-700 transition-colors">
+        Tailwind Button
+      </button>
     </FlexCol>
   )
 }
