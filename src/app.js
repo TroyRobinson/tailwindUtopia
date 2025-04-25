@@ -9,7 +9,6 @@ export var App = () => {
         width: '100%',
         height: '100%',
         background: 'white',
-
         justifyContent: 'center',
         alignItems: 'center',
       }}
@@ -17,18 +16,15 @@ export var App = () => {
       <img
         src='https://github.com/concrete-utopia/utopia/blob/master/editor/resources/editor/pyramid_fullsize@2x.png?raw=true'
         alt='Utopia logo'
-        style={{
-          width: 357,
-          height: 453,
-        }}
-      ></img>
-      <button className="mt-8 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors">
-        Click Me
-      </button>
-      {/* Simple Tailwind button */}
-      <button className="mt-4 px-6 py-2 bg-green-600 text-white rounded shadow hover:bg-green-700 transition-colors">
+        style={{ width: 357, height: 453 }}
+      />
+      <button className='mt-4 px-6 py-2 bg-purple-600 text-white rounded shadow hover:bg-green-700 transition-colors'>
         Tailwind Button
       </button>
+      <button className='mt-8 px-6 py-2 bg-black text-red-400 rounded-full border-2 border-red-600 uppercase tracking-wide font-semibold transform transition duration-300 hover:-translate-y-1 hover:scale-105 hover:bg-gray-800 focus:outline-none focus:ring-4 focus:ring-red-600 focus:ring-opacity-50 animate-pulse'>
+        Tailwind Ninja Button
+      </button>
+      {/* Simple Tailwind button */}
     </FlexCol>
   )
 }
