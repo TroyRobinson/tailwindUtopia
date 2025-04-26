@@ -26,7 +26,6 @@ export var App = () => {
           Tailwind Ninja Button
         </button>
       </FlexCol>
-      {/* Simple Tailwind button */}
     </FlexCol>
   )
 }
