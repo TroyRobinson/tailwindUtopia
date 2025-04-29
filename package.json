@@ -11,9 +11,10 @@
     "react-dom": "16.13.1",
     "utopia-api": "0.4.1",
     "react-spring": "8.0.27",
-    "@heroicons/react": "1.0.1",
     "@emotion/react": "11.9.3",
     "tailwindcss": "4.1.4",
-    "postcss": "8.5.3"
+    "postcss": "8.5.3",
+    "@headlessui/react": "2.2.2",
+    "@heroicons/react": "2.2.0"
   }
 }
